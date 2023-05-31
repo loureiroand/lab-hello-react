@@ -1,0 +1,101 @@
+.App {
+  text-align: left;
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-height: 50%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-ironhack {
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.hamburger-menu {
+  width: 20px;
+  height: 15px;
+  margin-right: 60px;
+  margin-top: 35px;
+}
+
+.container-hero {
+  color: white;
+}
+
+h1 {
+  font-size: 5rem;
+  line-height: 5rem;
+  margin-top: 150px;
+  margin-left: 60px;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 2rem;
+  margin-top: -30px;
+  margin-left: 60px;
+  padding-bottom: 2%;
+}
+
+button {
+  margin-top: -30px;
+  padding: 20px 30px;
+  margin-bottom: 4%;
+  margin-left: 60px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.container-icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 200px;
+  margin-left: -90px;
+  color: black;
+}
+
+.icon-col {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.icon1,
+.icon2,
+.icon3,
+.icon4 {
+  width: 160px;
+  height: 160px;
+  margin-left: -20px;
+}
+
+.icon-col h4 {
+  color: #282c34;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+.icon-col p {
+  margin-top: -20px;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  font-weight: 400;
+  text-align: left;
+  color: #8a8a8a;
+  margin-left: -1px;
+  margin-bottom: 250px;
+}
